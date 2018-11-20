@@ -1,0 +1,85 @@
+		<!-- modals -->
+		<div class="modal fade order-call" id="order-call" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>Заказать звонок</h3>
+						<button type="button" class="close icon-crossy" data-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="input-wrap">
+								<label>номер телефона</label>
+								<input type="tel" name="user-tel" class="field" placeholder="+7 ( ___ ) ___ - __ - __">
+							</div>
+							<div class="input-wrap flexbox">
+								<input type="checkbox" name="user-agree" id="user-agree">
+								<label for="user-agree" class="box box-label icon-check"></label>
+								<label for="user-agree" class="box-label">Ознакомлен с <a href="#">политикой обработки персональных данных</a>.<br>Даю согласие</label>
+							</div>
+							<div class="btn-wrap">
+								<button type="submit" class="green-btn" data-dismiss="modal" data-toggle="modal" data-target="#thanks">отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade reserve" id="reserve" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>Забронировать место</h3>
+						<button type="button" class="close icon-crossy" data-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="input-wrap">
+								<label>Ваше имя</label>
+								<input type="text" name="user-name" class="field">
+							</div>
+							<div class="input-wrap">
+								<label>номер телефона</label>
+								<input type="tel" name="user-tel" class="field user-tel" placeholder="+7 ( ___ ) ___ - __ - __">
+							</div>
+							<div class="input-group flexbox flex-space-b">
+								<div class="input-wrap">
+									<label>дата заезда</label>
+									<input type="text" name="user-date-from" class="field" id="date-from3">
+								</div>
+								<div class="input-wrap">
+									<label>дата выезда</label>
+									<input type="text" name="user-date-to" class="field" id="date-to3">
+								</div>
+							</div>
+							<div class="input-wrap flexbox">
+								<input type="checkbox" name="user-agree" id="user-agree2">
+								<label for="user-agree2" class="box box-label icon-check"></label>
+								<label for="user-agree2" class="box-label">Ознакомлен с <a href="#">политикой обработки персональных данных</a>.<br>Даю согласие</label>
+							</div>
+							<div class="btn-wrap">
+								<button type="submit" class="green-btn" data-dismiss="modal" data-toggle="modal" data-target="#thanks">отправить заявку</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade thanks" id="thanks" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close icon-crossy" data-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<img src="img/yellow-cat.png" class="yellow-cat" alt="">
+						<h3>THANK YOU!</h3>
+						<img src="img/green-check.png" class="green-check" alt="">
+						<p>Ваша заявка принята. Наши специалисты свяжутся с Вами в ближайшее время</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- </modals -->
